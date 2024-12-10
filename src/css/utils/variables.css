@@ -11,4 +11,12 @@
     --rouge: #ff1e18;
     --violet: #d704de;
 
+    /* Taille du texte */
+    --txt-S: 0.813rem;
+    --txt-M: 1.125rem;
+    --txt-L: 1.5rem;
+    --txt-XL: 2.25rem;
+
+    /* Typo */
+    --font-roboto: "Roboto Condensed";
 }
