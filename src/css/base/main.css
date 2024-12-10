@@ -1,0 +1,5 @@
+body{
+    font-family: var(--roboto);
+    font-size: var(--txt-M);
+    background-color: var(--blanc);
+}
