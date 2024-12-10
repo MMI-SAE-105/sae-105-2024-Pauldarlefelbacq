@@ -2,9 +2,23 @@ body{
     font-family: var(--font-roboto);
     font-size: var(--txt-M);
     background-color: var(--blanc);
+    font-weight: lighter;
 }
 
 h1,
 h2{
+    font-family: var(--font-impact);
+}
+
+h1{
+    font-size: var(--txt-XL);
+    kerning: 0.72px;
+}
+
+h2{
+    font-size: var(--txt-L);
+}
+
+h3{
     font-family: var(--font-impact);
 }

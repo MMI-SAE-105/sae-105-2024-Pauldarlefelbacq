@@ -12,6 +12,7 @@
     --violet: #d704de;
 
     /* Taille du texte */
+    --txt-XS: 0.75rem;
     --txt-S: 0.813rem;
     --txt-M: 1.125rem;
     --txt-L: 1.5rem;
