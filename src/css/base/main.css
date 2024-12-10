@@ -6,8 +6,10 @@ body{
 }
 
 h1,
-h2{
+h2,
+h3{
     font-family: var(--font-impact);
+    font-weight: 500;
 }
 
 h1{
@@ -20,7 +22,7 @@ h2{
 }
 
 h3{
-    font-family: var(--font-impact);
+    font-size: var(--txt-S);
 }
 
 .button__normal{
