@@ -22,3 +22,15 @@ h2{
 h3{
     font-family: var(--font-impact);
 }
+
+.button__normal{
+    border-radius: 5px;
+    border: 2px solid var(--rouge);
+    background: var(--noir);
+}
+
+.button__billet{
+    border-radius: 5px;
+    border: 2px solid var(--violet);
+    background: var(--noir);
+}
