@@ -1,5 +1,10 @@
 body{
-    font-family: var(--roboto);
+    font-family: var(--font-roboto);
     font-size: var(--txt-M);
     background-color: var(--blanc);
+}
+
+h1,
+h2{
+    font-family: var(--font-impact);
 }
