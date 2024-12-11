@@ -16,6 +16,16 @@
               alt="Icon de Vis'Sport"
             />
           </a>
+
+          <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+          </button>
+
           <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <img class="header__menu-img" src="./assets/Images/icons/ballonderugby.avif" alt="ballon de rugby en image">
             <img class="header__menu-img" src="./assets/Images/icons/balledefoot.avif" alt="ballon de rugby en image">
@@ -43,16 +53,26 @@
               </li>
             </ul>
           </nav>
-          <button
-            class="header__menu-btn menu-btn"
-            aria-label="menu"
-            aria-expanded="false"
-            aria-controls="mainNav"
-          >
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-          </button>
     </header>
-    
-    <h1>Vis'Sport</h1>
+    <main>
+      <div class="hero hero--home">
+    <h1 class="hero__title">Vis'Sport</h1>
+    <img 
+    class="hero__img" 
+    src="./assets/Images/médias/axone.avif" 
+    alt="image du stade de l'axone">
+    <p class="hero__txt-annexe">6 rue du Commandant Pierre Rossel, 25200 Montbéliard</p>
+    <button class="hero__btn button__normal">Voir sur la carte</button>
+    <h2 class="hero__sub-title sub-title">Bienvenue au Festival Vis'Sport</h2>
+    <p class="hero__txt txt">Rendez-vous à l’Axone de Montbéliard pour une immersion cinématographique dédiée au sport ! Vis'Sport célèbre l’esprit de compétition et la persévérance des athlètes à travers des films, débats et rencontres. Passionnés de sport ou de cinéma, ne manquez pas cette fusion unique des deux univers !</p>
+    </div>
+
+    <article class="section">
+      <img 
+      src="./assets/Images/icons/datesicons.avif" 
+      alt="icon simpliste en forme de calendrier"
+      loading="lazy">
+    </article>
+  </main>
 </body>
 </html>
