@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/favicons/site.webmanifest" />
+    
+    <title>Billeterie Vis'Sport</title>
+
+    <link rel="stylesheet" href="/src/css/style.css"/>
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/">
+            <img
+              class="header__logo"
+              src="/assets/Images/logo/logovissport.avif"
+              alt="Icon de Vis'Sport"
+            />
+          </a>
+
+          <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+          </button>
+
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <img class="header__menu-img" src="./assets/Images/icons/ballonderugby.avif" alt="ballon de rugby en image">
+            <img class="header__menu-img" src="./assets/Images/icons/balledefoot.avif" alt="ballon de rugby en image">
+            <img class="header__menu-img" src="./assets/Images/icons/balledebasket.avif" alt="ballon de rugby en image">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="programme.html">Programme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="invites.html">Invités</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="apropos.html">À propos</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="infospratiques.html">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Nous contacter</a>
+              </li>
+              <li>
+                <a>
+                  <button class="button__billet">
+                    <a class="menu__link" href="billeterie.html">Billeterie</a>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1 class="hero__title title">Contactez nous !</h1>
+            <img class="hero__img img"
+            src="./assets/Images/icons/billetsorange_billeterie.avif" 
+            alt="icone de billets oranges"
+            loading="lazy">
+        </div>
+
+        <div class="button__pay">
+            <span class="button__pay--description">Pass journée</span>
+            <span class="button__pay--prix">5€</span>
+            <div class="button__pay--controles-PassJ">
+              <button class="button__pay--moins">-</button>
+              <button class="button__pay--plus">+</button>
+            </div>
+        </div>
+        <div class="button__total">
+            <span class="button__total--total-PassJ">0</span>
+        </div>
+
+        <div class="button__pay">
+            <span class="button__pay--description">Pass weekend</span>
+            <span class="button__pay--prix">12€</span>
+            <div class="button__pay--controles-PassWE">
+                <button class="button__pay--moins">-</button>
+                <button class="button__pay--plus">+</button>
+            </div>
+        </div>
+        <div class="button__total">
+            <span class="button__total--total-PassWE">0</span>
+        </div>
+
+        <div class="button__pay">
+            <span class="button__pay--description">Pass journée</span>
+            <span class="button__pay--prix">3€</span>
+            <div class="button__pay--controles-TarifR">
+                <button class="button__pay--moins">-</button>
+                <button class="button__pay--plus">+</button>
+            </div>
+        </div>
+        <div class="button__total">
+            <span class="button__total--total-TarifR">0</span>
+        </div>
+
+        <div class="button__panier">
+            <span class="button__panier--description">Panier</span>
+            <span class="button__panier--prixtotal">0€</span>
+            <div class="button__panier--panier">
+                <img 
+                class="button__panier--img"
+                src="./assets/Images/icons/panier.avif" 
+                alt="icone de panier">
+            </div>
+        </div>
