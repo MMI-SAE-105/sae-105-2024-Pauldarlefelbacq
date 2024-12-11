@@ -2,7 +2,6 @@ body{
     font-family: var(--font-roboto);
     font-size: var(--txt-M);
     background-color: var(--blanc);
-    font-weight: lighter;
 }
 
 h1,
@@ -25,7 +24,19 @@ h3{
     font-size: var(--txt-S);
 }
 
+.orange{
+    color: var(--orange);
+}
+
 .button__normal{
+    display: inline-flex;
+    padding: 23px 8px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
     border-radius: 5px;
     border: 2px solid var(--rouge);
     background: var(--noir);
