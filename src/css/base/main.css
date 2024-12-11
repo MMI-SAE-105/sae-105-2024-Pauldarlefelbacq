@@ -36,3 +36,24 @@ h3{
     border: 2px solid var(--violet);
     background: var(--noir);
 }
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+  
+.noscroll {
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+.header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: var(--space2x) var(--space3x);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.header__logo {
+    display: block;
+}
