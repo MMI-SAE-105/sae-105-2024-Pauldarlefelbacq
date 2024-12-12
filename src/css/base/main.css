@@ -43,6 +43,8 @@ h3{
 }
 
 .button__billet{
+    text-decoration: none;
+    color: var(--blanc);
     display: inline-flex;
     padding: 23px 46px;
     align-items: center;
