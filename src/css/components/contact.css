@@ -1,0 +1,36 @@
+.form__field{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    background-color: var(--gris-anthracite);
+    color: var(--blanc);
+    margin: 8px;
+    width: 90%;
+    padding: 3%;
+}
+
+.impact__p{
+    font-family: var(--font-impact);
+    font-size: var(--txt-L)
+}
+.form__label{
+    font-size: var(--txt-S);
+    display: block;
+    margin: 8px;
+}
+
+.contact__rs ul{
+    list-style: none;
+    justify-content: center;
+}
+
+.contact__rs li{
+    display: inline-flex;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.hero__img{
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+}
