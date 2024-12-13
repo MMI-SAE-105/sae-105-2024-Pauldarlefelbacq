@@ -1,0 +1,68 @@
+.button__pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--noir);
+    color: var(--blanc);
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: 2px solid var(--rouge);
+    border-radius: 5px;
+}
+
+.button__pay--description {
+    font-size: var(--txt-M)
+}
+
+.button__pay--prix {
+    margin-left: 10px;
+}
+
+.button__pay--controles-PassJ, 
+.button__pay--controles-PassWE, 
+.button__pay--controles-TarifR {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.button__pay--moins, 
+.button__pay--plus {
+    width: 30px;
+    height: 30px;
+    background-color: var(--gris-anthracite); 
+    color: var(--blanc);
+    border: none;
+    cursor: pointer;
+}
+
+.button__pay--moins:hover, 
+.button__pay--plus:hover {
+    background-color: var(--rouge);
+}
+
+.button__total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gris-anthracite);
+    color: var(--blanc); 
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--rouge);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button__panier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--orange);
+    color: var(--noir);
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid var(--rouge);
+    border-radius: 5px;
+}

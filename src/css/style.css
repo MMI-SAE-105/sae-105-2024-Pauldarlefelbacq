@@ -24,4 +24,5 @@
 @import "components/affiche_invites.css";
 @import "components/article_edition_festival.css";
 @import "components/articles_infospratiques.css";
-@import "components/indexCSS.css"
+@import "components/indexCSS.css";
+@import "components/billeterie.css";
