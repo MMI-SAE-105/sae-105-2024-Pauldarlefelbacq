@@ -9,16 +9,16 @@
     justify-content: space-between;
     padding: 120px 40px 40px;
     transition: all 0.3s ease-in-out;
-
 }
 
 .menu[aria-hidden="true"] {
     visibility: hidden;
-    transform: translateX(100vw);
+    transform: translateX(0);
 }
 
 .menu__logo {
-    position: absolute;
+    display: flex;
+    position: relative;
     width: 75px;
     height: 75px;
 }
@@ -105,4 +105,19 @@
 .button__billet-menu{
     margin: 0 0 0 0;
     padding: 30px 40px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before{
+  transform: rotate(-135deg);
+  background: var(--blanc);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before{
+  transform: rotate(-90deg);
+  top: 0;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after{
+  visibility: hidden;
 }
