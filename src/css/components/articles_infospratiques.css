@@ -6,7 +6,7 @@
     font-size: var(--txt-S);
 }
 
-div{
+.section-infos div{
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 14px;

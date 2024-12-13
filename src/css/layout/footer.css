@@ -1,4 +1,5 @@
 footer{
+    margin-top: 150px;
     background-color: var(--noir);
     color: var(--blanc);
     padding: 40px 0;
