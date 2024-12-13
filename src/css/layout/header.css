@@ -2,6 +2,7 @@
     margin: 0  !important;
     background-color: var(--noir);
     position: sticky;
+    top: 0;
     width: 393px;
     height: auto;
 

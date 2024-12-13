@@ -13,7 +13,7 @@
 
 .menu[aria-hidden="true"] {
     visibility: hidden;
-    transform: translateX(0);
+    transform: translateX(100%);
 }
 
 .menu__logo {
