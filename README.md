@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : DARLE-FELBACQ
+- PRÉNOM : Paul
+- GROUPE : TDA-2
+- URL du site : https://lighthearted-squirrel-4e21cf.netlify.app
+- URL FIGMA :https://www.figma.com/design/CCaNmpqpeXhXCNconlPfEY/DARLE-FELBACQ_Paul_rendu_SAE-103?node-id=1-3&t=LJrEUrltmmEI1CL7-1
 
 ## Sujet
 
