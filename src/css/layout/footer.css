@@ -41,6 +41,7 @@ footer{
 }
 
 .footer__txt-annexe{
+    margin-left: 47px;
     font-size: var(--txt-XS);
     font-weight: lighter;
     display: flex;

@@ -120,5 +120,5 @@
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after{
     visibility: hidden;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.0s ease-in-out;
 }
