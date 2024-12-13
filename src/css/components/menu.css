@@ -17,6 +17,12 @@
     transform: translateX(100vw);
 }
 
+.menu__logo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
 .rugby__img{
     position: absolute;
     margin-left: 53%;

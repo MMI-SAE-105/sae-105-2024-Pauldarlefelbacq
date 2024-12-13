@@ -1,0 +1,55 @@
+.hero__sub-title{
+    padding-bottom: 10%;
+}
+
+.edition__list{
+    list-style: none;
+    margin-left: 14px;
+}
+
+.edition__sub-title{
+    padding-top: 7%;
+}
+
+.edition__sub--sub-title{
+    color: var(--bleu);
+    font-family: var(--font-roboto);
+    font-size: var(--txt-M);
+    margin-top: -14px;
+}
+
+.edition__txt{
+    margin-left: 0;
+    padding-bottom: 10%;
+    border-bottom: 6px solid var(--orange);
+}
+
+.equipe__titre{
+    margin-top: 15%;
+}
+
+.equipe__sub-title-poste{
+    margin-top: -5%;
+}
+
+.equipe__list-respo{
+    list-style: none;
+    width: 95%;
+    margin-left: 14px;
+    padding-bottom: 5%;
+    border-bottom: 6px solid var(--bleu);
+}
+
+.charte__sub-title{
+    padding-top: 7%;
+    margin-bottom: -4%;
+}
+
+.charte__txt{
+    font-size: var(--txt-M);
+}
+
+.fin__p-charte{
+    padding-bottom: 10%;
+    border-bottom: 6px solid var(--orange);
+}
