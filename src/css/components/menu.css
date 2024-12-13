@@ -19,19 +19,19 @@
 
 .rugby__img{
     position: absolute;
-    display: absolute;
-    margin-left: 80%;
+    margin-left: 53%;
 }
 
 .foot__img{
     position: absolute;
-    margin-top: 80%;
+    margin-top: 135%;
+    margin-left: -10%;
 }
 
 .basket__img{
     position: absolute;
-    margin-top: 80%;
-    margin-left: 80%;
+    margin-top: 145%;
+    margin-left: 47%;
 }
 
 .menu__link {
@@ -94,4 +94,9 @@
     text-decoration: underline;
     text-decoration-color: var(--orange);
     text-align: center;
+}
+
+.button__billet-menu{
+    margin: 0 0 0 0;
+    padding: 30px 40px;
 }

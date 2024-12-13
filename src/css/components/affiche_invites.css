@@ -1,0 +1,20 @@
+.hero__title{
+    margin-bottom: -10%;
+}
+
+.invites__img{
+    width: 250px;
+    margin:  10% 0 -2% 18%;
+}
+
+.invites__sub-title--nom{
+    padding-left: 13px;
+}
+
+.invites__txt{
+    font-size: var(--txt-S);
+    padding-bottom: 10%;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-bottom: 6px solid var(--orange);
+}
