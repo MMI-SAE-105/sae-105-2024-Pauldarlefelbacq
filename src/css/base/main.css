@@ -36,7 +36,8 @@ h3{
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-
+    font-family: var(--font-impact);
+    font-size: var(--txt-L);
     border-radius: 5px;
     border: 2px solid var(--rouge);
     background: var(--noir);
@@ -51,7 +52,8 @@ h3{
     gap: 10px;
     flex-shrink: 0;
     margin: 50%;
-
+    font-family: var(--font-impact);
+    font-size: var(--txt-L);
     border-radius: 5px;
     border: 2px solid var(--violet);
     background: var(--noir);
@@ -77,3 +79,4 @@ h3{
 .noscroll {
     overflow: hidden;
 }
+
