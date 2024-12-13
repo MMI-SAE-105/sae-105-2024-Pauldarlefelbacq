@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: var(--font-roboto);
     font-size: var(--txt-M);
@@ -13,7 +19,7 @@ h3{
 
 h1{
     font-size: var(--txt-XL);
-    kerning: 0.72px;
+    letter-spacing: 0.72px;
 }
 
 h2{
@@ -28,6 +34,11 @@ h3{
     color: var(--orange);
 }
 
+.hero__title{
+    font-size: var(--txt-XL);
+    text-align: center;
+}
+
 .button__normal{
     display: inline-flex;
     padding: 23px 8px;
@@ -38,6 +49,7 @@ h3{
     flex-shrink: 0;
     font-family: var(--font-impact);
     font-size: var(--txt-L);
+    color: var(--blanc);
     border-radius: 5px;
     border: 2px solid var(--rouge);
     background: var(--noir);

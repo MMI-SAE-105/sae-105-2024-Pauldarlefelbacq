@@ -1,5 +1,6 @@
 .menu {
     position: fixed;
+    display: flex;
     inset: 0;
     z-index: 1;
     background-color: var(--noir);
@@ -8,7 +9,7 @@
     justify-content: space-between;
     padding: 120px 40px 40px;
     transition: all 0.3s ease-in-out;
-    overflow: hidden;
+
 }
 
 .menu[aria-hidden="true"] {
@@ -51,8 +52,8 @@
 
 .menu-btn {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,8 +64,9 @@
 .menu-btn__bar::after {
     content: "";
     background: var(--blanc);
+    color: var(--blanc);
     height: 2px;
-    width: 75px;
+    width: 50px;
     position: absolute;
     border-radius: 2px;
     left: 0;
@@ -73,11 +75,12 @@
 }
 
 .menu-btn__bar::before {
-    top: -10px;
+    top: -20px;
 }
 
 .menu-btn__bar::after {
-    top: 10px;
+    top: 20px;
+    width: 30px;
 }
 
 .menu .button__billet{
