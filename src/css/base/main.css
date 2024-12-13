@@ -13,6 +13,7 @@ body{
 h1,
 h2,
 h3{
+    margin: 14px;
     font-family: var(--font-impact);
     font-weight: 500;
 }
@@ -28,6 +29,10 @@ h2{
 
 h3{
     font-size: var(--txt-S);
+}
+
+p{
+    margin: 14px;
 }
 
 .orange{
@@ -47,6 +52,7 @@ h3{
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    
     font-family: var(--font-impact);
     font-size: var(--txt-L);
     color: var(--blanc);
@@ -59,11 +65,11 @@ h3{
     text-decoration: none;
     color: var(--blanc);
     display: inline-flex;
-    padding: 23px 46px;
+    padding: 30px 46px;
+    margin: 0 13px 180px 80px;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-    margin: 50%;
     font-family: var(--font-impact);
     font-size: var(--txt-L);
     border-radius: 5px;

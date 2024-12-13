@@ -1,0 +1,17 @@
+.hero__img{
+    color: var(--noir);
+}
+
+.hero__txt-annexe{
+    font-size: var(--txt-S);
+    color: var(--noir);
+    margin-top: 0;
+    margin-left: 26px;
+}
+
+.hero__btn{
+    display: flex;
+    align-items: center;
+    margin: 0 26px 45px 107px;
+}
+
